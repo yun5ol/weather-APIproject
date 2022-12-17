@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-page {
+  text-align: center;
+}
+
+h1 {
+  color: green;
+  padding-bottom: 20px;
+  font-weight: 900;
+}
+
+.detail-page {
+  color: darkolivegreen;
+}
+
+.span {
+  float: left;
+  display: flex;
+}
+
+.curtime {
+  position: absolute;
+  bottom: 0;
+  font-size: smaller;
+  color: gray;
+}
+
+.span {
+  float: left;
+  display: flex;
+}
